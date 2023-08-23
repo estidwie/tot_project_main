@@ -1,12 +1,12 @@
 import Layout from "@/components/Layout";
 import { MultiSelect } from "@mantine/core";
 
-export default function DashboardPage(){
+export default function Food(){
   return (
     <>
-      <Layout title='Dashboard Page'>
+      <Layout title='Food Page'>
         <main>
-          <p>DashboardPage</p>
+          <p>Foodpage</p>
         </main>
       </Layout>
     </>

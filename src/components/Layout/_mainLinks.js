@@ -37,7 +37,9 @@ function MainLink({ icon, color, label, path }) {
 
 const data = [
   { icon: <IconLayoutDashboard size={16} />, color: 'blue', label: 'Dashboard', path: '' },
+  { icon: <IconBuilding size={16} />, color: 'violet', label: 'Buku', path: 'buku' },
   { icon: <IconBuilding size={16} />, color: 'violet', label: 'Product', path: 'product' },
+  { icon: <IconBuilding size={16} />, color: 'violet', label: 'Food', path: 'food' },
 ];
 
 export function MainLinks() {
